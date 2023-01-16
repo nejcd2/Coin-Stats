@@ -1,0 +1,57 @@
+$color_1: grey;
+
+.asset-container {
+	display: flex;
+	justify-content: center;
+}
+.asset-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	height: 40px;
+	border-bottom: 1px solid #d7d7d7;
+	width: 900px;
+}
+.asset {
+	display: flex;
+	align-items: center;
+	padding-right: 24px;
+	min-width: 300px;
+	h1 {
+		font-size: 14px;
+		width: 150px;
+	}
+	img {
+		height: 30px;
+		width: 30px;
+		margin-right: 10px;
+	}
+}
+.asset-data {
+	display: flex;
+	text-align: right;
+	justify-content: space-between;
+	width: 100%;
+	gap: 20px;
+}
+.asset-price {
+	font-size: 15px;
+	color: $color_1;
+	width: 60px;
+}
+.asset-symbol {
+	font-size: 15px;
+	width: 80px;
+	color: $color_1;
+}
+.asset-marketcap {
+	width: 120px;
+	font-size: 15px;
+	color: $color_1;
+}
+.asset-percent {
+	font-size: 15px;
+	width: 120px;
+	color: $color_1;
+}
